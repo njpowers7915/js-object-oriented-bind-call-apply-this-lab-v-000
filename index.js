@@ -2,7 +2,7 @@
 
 function justInvoke() {
   function invokeFunction() {
-    return this;
+    return this
   }
   return invokeFunction()
 }
