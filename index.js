@@ -1,6 +1,6 @@
 //Your code here
 
-let justInvoke(fn) = function () {
+let justInvoke() = function () {
     function invokeFunction() {
       return this
     }
