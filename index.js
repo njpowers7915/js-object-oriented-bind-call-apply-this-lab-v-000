@@ -1,7 +1,7 @@
 //Your code here
 
-let invokeFunction = {
-  justInvoke: function () {
+function justInvoke(fn) {
+  function invokeFunction(fn) {
     return this;
   }
 }
