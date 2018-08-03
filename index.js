@@ -1,5 +1,12 @@
 //Your code here
 
-let justInvoke(fn) = function fn() {
+let justInvoke(fn) = {
+  function invokeFunction() {
+    return this
+  }
+  return invokeFunction()
+}
+
+ function fn() {
   return this
 }
