@@ -6,7 +6,3 @@ const justInvoke(fn) = {
   }
   return invokeFunction()
 }
-
- function fn() {
-  return this
-}
