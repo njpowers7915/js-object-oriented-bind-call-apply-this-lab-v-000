@@ -1,6 +1,6 @@
 //Your code here
 function invokeFunction(fn) {
-  function justInvoke(fn) {
+  function justInvoke() {
     return this;
   }
 }
