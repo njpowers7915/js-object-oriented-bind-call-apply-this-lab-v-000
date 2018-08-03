@@ -1,6 +1,4 @@
 //Your code here
-function justInvoke(fn) {
-  function invokeFunction() {
-    return this;
-  }
+const invokeFunction = function justInvoke(fn) {
+  return this;
 }
