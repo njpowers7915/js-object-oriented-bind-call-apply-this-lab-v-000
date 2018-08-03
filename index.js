@@ -4,5 +4,5 @@ function justInvoke() {
   function invokeFunction() {
     return this
   }
-  return invokeFunction()
+  return justInvoke()
 }
