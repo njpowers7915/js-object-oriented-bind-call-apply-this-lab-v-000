@@ -2,6 +2,6 @@
 
 function justInvoke(fn) {
   function invokeFunction(fn) {
-    return this;
+    return fun;
   }
 }
