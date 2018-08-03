@@ -1,8 +1,8 @@
 //Your code here
 
 function justInvoke(fn) {
-  function invokeFunction(fn) {
+  function invokeFunction() {
     return this;
   }
-  return invokeFunction(fn)
+  return invokeFunction(fn);
 }
